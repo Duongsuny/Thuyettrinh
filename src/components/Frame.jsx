@@ -1,9 +1,11 @@
 import { Button, Typography } from '@mui/material';
 import Background from '../assets/background.png';
 
+
 export default function Frame() {
     return (
         <>
+            <Bar></Bar>
             <Typography variant="h1">CORE TEAM</Typography>
             <Button variant="flat">Click me also</Button>
             <Button variant="second">Click here!</Button>
