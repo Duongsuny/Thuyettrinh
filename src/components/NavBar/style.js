@@ -10,13 +10,19 @@ const navBarStyle = {
         paddingLeft: 84,
         paddingRight: 84
     },
+    toolbarSmStyle: {
+        display: "flex",
+        justifyContent: "center",
+        paddingLeft: 84,
+        paddingRight: 84
+    },
     stackStyle: {
         justifyContent: "flex-end"
     },
     typographyStyle: {
         cursor: "pointer",
         "&:hover": {
-            textShadow:"0 0 20px rgba(255, 255, 255, 0.5)"
+            textShadow:"0 0 10px rgba(255, 255, 255, 0.7)",
         }
     }
 }

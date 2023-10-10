@@ -8,5 +8,6 @@ export default function Logo () {
 
 const style = {
     width: "115px",
-    paddingBottom: "6px"
+    paddingBottom: "6px",
+    cursor: "pointer"
 }
