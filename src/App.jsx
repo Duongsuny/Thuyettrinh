@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { createTheme } from './theme/index.js';
 import { ThemeProvider } from '@mui/material/styles';
-import ReactFullpage from '@fullpage/react-fullpage';
-import { Button, Box, CssBaseline, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 
 import NavBar from './components/NavBar/NavBar.jsx';
-import Blur from './components/Blur/Blur.jsx';
+
+import Coreteam from './Sections/Coreteam/Coreteam.jsx';
 
 function App() {
   const theme = createTheme();
@@ -17,9 +17,7 @@ function App() {
         <section>
             <h1>Mission</h1>
         </section>
-        <section>
-            <h1>Coreteam</h1>
-        </section>
+            <Coreteam />
         <section> 
             <h1>Gallery</h1>
         </section>

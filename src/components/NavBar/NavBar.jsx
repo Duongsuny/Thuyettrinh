@@ -5,7 +5,6 @@ import { useMediaQuery } from "@mui/material";
 
 export default function NavBar() {
     const matches = useMediaQuery('(min-width:700px)');
-    console.log(matches);
 
     if (matches) {
         return (
