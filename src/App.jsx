@@ -13,6 +13,9 @@ function App() {
     <>
     <ThemeProvider theme={theme}>
       <NavBar/>
+      {
+        // each section in Box contain one part of the page, to do sync action with navbar button
+      }
       <Box>
         <section>
             <h1>Mission</h1>

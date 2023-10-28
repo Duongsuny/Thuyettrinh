@@ -2,6 +2,7 @@ import { Box, Typography, Stack, Divider } from "@mui/material";
 import cardStyle from "./style"
 import duong from "../../assets/Duong.png"
 
+//This component prensents a card of a coreteam member
 export default function Card(props) {
     return (
         <Box style={cardStyle.BoxStyle}>
@@ -18,7 +19,7 @@ export default function Card(props) {
                     </Typography>
 
                     <Typography variant="body2" sx={{ fontWeight: "300" }}>
-                        UET CACLC3
+                        {props.class}
                     </Typography>
                 </Box>
 
