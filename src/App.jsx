@@ -3,8 +3,8 @@ import { createTheme } from './theme/index.js';
 import { ThemeProvider } from '@mui/material/styles';
 import { Box } from '@mui/material';
 
-import NavBar from './components/NavBar/NavBar.jsx';
 
+import NavBar from './components/NavBar/NavBar.jsx';
 import Coreteam from './Sections/Coreteam/Coreteam.jsx';
 
 function App() {

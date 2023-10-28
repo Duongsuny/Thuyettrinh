@@ -1,0 +1,71 @@
+{
+    "ban": ["Ban Chủ nhiệm", "Ban Nội dung", "Ban Truyền thông", "Ban Tài chính - Nhân sự", "Ban MC", "Ban Đối ngoại"],
+    "distribution": [3, 2, 3, 2, 1, 2],
+    "coreteam": [
+        {
+            "name": "Lê Quý Dương",
+            "class": "UET CACLC3",
+            "position": "Chủ nhiệm"
+        },
+        {
+            "name": "Bùi Mai Hương",
+            "class": "UEB KTPT3",
+            "position": "Phó Chủ nhiệm"
+        },
+        {
+            "name": "Đoàn Ngọc Đức",
+            "class": "UET KTPT4",
+            "position": "Phó Chủ nhiệm"
+        },
+        {
+            "name": "Dương Văn Chương",
+            "class": "UET CACLC3",
+            "position": "Trưởng ban Nội dung"
+        },
+        {
+            "name": "Hoàng Duy Hưng",
+            "class": "UET CACLC3",
+            "position": "Phó ban Nội dung"
+        },
+        {
+            "name": "Nguyễn Bằng Anh",
+            "class": "UET CCLC",
+            "position": "Trưởng ban TCNS"
+        },
+        {
+            "name": "Nguyễn Thùy Dương",
+            "class": "UEB KT",
+            "position": "Phó ban TCNS"
+        },
+        {
+            "name": "Đinh Thu Phương",
+            "class": "UEB",
+            "position": "Trưởng ban Truyền thông"
+        },
+        {
+            "name": "Nguyễn N.Bảo Trân",
+            "class": "UET CACLC3",
+            "position": "Phó ban Truyền thông"
+        },
+        {
+            "name": "Nguyễn Minh Tuấn",
+            "class": "UET CACLC3",
+            "position": "Phó ban Truyền thông"
+        },
+        {
+            "name": "Nguyễn Quỳnh Trang",
+            "class": "UET CACLC3",
+            "position": "Trưởng ban MC"
+        },
+        {
+            "name": "Mạc Đình Hưng",
+            "class": "UET CACLC3",
+            "position": "Trưởng ban Đối ngoại"
+        },
+        {
+            "name": "Nguyễn Hương Thảo",
+            "class": "UET CACLC3",
+            "position": "Phó ban Đối ngoại"
+        }
+    ]
+}
