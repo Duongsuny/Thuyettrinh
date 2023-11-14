@@ -6,6 +6,7 @@ import { Box } from '@mui/material';
 
 import NavBar from './components/NavBar/NavBar.jsx';
 import Coreteam from './Sections/Coreteam/Coreteam.jsx';
+import Mission from './Sections/Mission/Mission.jsx';
 
 function App() {
   const theme = createTheme();
@@ -18,7 +19,7 @@ function App() {
       }
       <Box>
         <section>
-            <h1>Mission</h1>
+            <Mission />
         </section>
             <Coreteam />
         <section> 
@@ -26,6 +27,12 @@ function App() {
         </section>
         <section> 
             <h1>Tôi Bản lĩnh</h1>
+        </section>
+        <section>
+          <h1>Club day</h1>
+        </section>
+        <section>
+          <h1>Tuyển thành viên Gen 18</h1>
         </section>
       </Box>
     </ThemeProvider>
